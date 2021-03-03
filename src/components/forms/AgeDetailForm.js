@@ -166,7 +166,6 @@ const AgeDetailForm = ({ totalSteps, currentStep, setCurrentStep, userId }) => {
               }
             />
           </div>
-
           <div className="form_slider_age">
             <div className="value">
             <div className="buble">{formData.ageEnd + " years"}</div>
