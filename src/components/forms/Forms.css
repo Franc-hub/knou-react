@@ -249,17 +249,20 @@ font-size: 20px;
     color: #8c30f5;
 
 }
-label {
+ label {
     font-family: sans-serif, Arial;
     font-size: 16px;
     padding: 15px 15px 15px 15px;
     border-radius: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconGender{
     width: 40px;
     height: 40px;
-    cursor: pointer;
 }
 /*hetero icon*/
 .iconHeteroM, .iconHeteroF{

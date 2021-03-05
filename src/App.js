@@ -30,6 +30,10 @@ function App() {
           <Route exact path="/swipePage">
             <SwipePage />
           </Route>
+
+          <Route exact path="/icons">
+            <AgeDetailForm />
+          </Route>
           {/* Siempre dejar este al último */}
           <Route exact path="*">
             <LandingPage />

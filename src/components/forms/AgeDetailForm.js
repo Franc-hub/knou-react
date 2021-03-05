@@ -4,7 +4,6 @@ import Button from "../button/Button";
 import Stepper from "../stepper/Stepper";
 import femaleIcon from "../../assets/gender icons/femaleIcon.svg"
 import maleIcon from "../../assets/gender icons/maleIcon.svg"
-import maleFemaleIcon from "../../assets/gender icons/maleFemaleIcon.svg"
 import orientaSexMaleFemaleIcon from "../../assets/gender icons/orientaSexMaleFemaleIcon.svg"
 
 const AgeDetailForm = ({ totalSteps, currentStep, setCurrentStep, userId }) => {
@@ -81,7 +80,8 @@ const AgeDetailForm = ({ totalSteps, currentStep, setCurrentStep, userId }) => {
                     setFormData({ ...formData, gender: e.target.value })
                   }
                 />
-            <label for="male" ><img src={maleIcon} alt="male simbol" className="iconGender"/>Male</label>
+            <label for="male" >
+              <img src={maleIcon} alt="male simbol" className="iconGender"/>Male</label>
             </div>
             <div className="genderEspecificSection" >  
                   
